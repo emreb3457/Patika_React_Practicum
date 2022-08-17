@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.board button {
+  flex: 0 0 33.333333%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.winnerModal {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  background: rgba(18, 245, 131, 0.938);
+  margin-top: 150px;
+  border-radius: 15px;
+}
+
+.winnerModal button {
+  border-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 50px;
+}
